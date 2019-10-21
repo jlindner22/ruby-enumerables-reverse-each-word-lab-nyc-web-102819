@@ -1,7 +1,4 @@
-def reverse_each_word
-#   word.each do |word| 
-# puts word
- def reverse(string)
+def reverse_each_word(string)
  string = string.split('')
  reversed_string = []
  
@@ -12,4 +9,7 @@ def reverse_each_word
  return reversed_string.join('')
 end 
   
-end
+
+
+#   word.each do |word| 
+# puts word
